@@ -1,8 +1,9 @@
 # boxplot
 the Goal is that we can detect changes of underlying scanner/distribution and use this information to stabilize the training to avoid catastrophic forgetting\
 in the [plot] to plot samples and their mean/std dev.\
-in the [mode_tran] is the model about how to use U-Net model to train the dataset, and then show the change about the data from different scanners.
-#Anomaly Detection Method
+in the [mode_tran] is the model about how to use U-Net model to train the dataset, and then show the change about the data from different scanners.\
+
+Anomaly Detection Method
 1. Overview
 We employ Gaussian Discriminant Analysis (GDA) to model the feature distribution of deep models and use Mahalanobis Distance for confidence estimation. Compared to the traditional Softmax confidence method, this approach provides a more effective way to distinguish in-distribution (ID) and out-of-distribution (OOD) samples.
 
