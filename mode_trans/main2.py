@@ -75,13 +75,13 @@ def plot_mahalanobis_distances(epochs, distances, save_dir):
 
 if __name__ == "__main__":
     # 路径配置
-    train_dir_akoya = "/local/scratch/jliu/aggc/train_patches/Akoya"
-    train_dir_scanner_b = "/local/scratch/jliu/aggc/train_patches/KFBio"
-    test_dir_akoya = "/local/scratch/jliu/aggc/test_patches/Akoya"
-    test_dir_scanner_b = "/local/scratch/jliu/aggc/test_patches/KFBio"
-    save_dir = "/gris/gris-f/homelv/jliu/pvc/predictions"
-    # checkpoint_path = "/gris/gris-f/homelv/jliu/pvc/predictions/unet_model_batch.pth"
-    checkpoint_path = "/gris/gris-f/homelv/jliu/pvc/predictions/unet_model_batch_seed2.pth"
+    train_dir_akoya = "/train_patches/Akoya"
+    train_dir_scanner_b = "/train_patches/KFBio"
+    test_dir_akoya = "test_patches/Akoya"
+    test_dir_scanner_b = "/test_patches/KFBio"
+    save_dir = "/predictions"
+    # checkpoint_path = "/unet_model_batch.pth"
+    checkpoint_path = "predictions/unet_model_batch_seed2.pth"
 
     os.makedirs(save_dir, exist_ok=True)
 

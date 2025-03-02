@@ -82,4 +82,3 @@ def create_boxplot():
     return Scanner
 if __name__ == '__main__':
     Scanner = create_boxplot()
-
