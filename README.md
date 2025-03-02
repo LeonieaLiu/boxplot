@@ -6,7 +6,7 @@ in the [mode_tran] is the model about how to use U-Net model to train the datase
 1. Overview
 We employ Gaussian Discriminant Analysis (GDA) to model the feature distribution of deep models and use Mahalanobis Distance for confidence estimation. Compared to the traditional Softmax confidence method, this approach provides a more effective way to distinguish in-distribution (ID) and out-of-distribution (OOD) samples.
 
-2. Methodology
+2. Methodology\
 a. Constructing Class-Conditional Gaussian Distributions
 The features extracted from the deep model for each class are assumed to follow a Gaussian distribution.
 This distribution is characterized by the mean and covariance of the feature vectors within each class.
